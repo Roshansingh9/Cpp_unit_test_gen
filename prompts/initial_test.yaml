@@ -1,0 +1,11 @@
+instruction: >
+  You are a C++ test generation expert. Given the code below, write comprehensive Google Test-compatible unit tests
+  for all public functions inside the file. Do not include duplicate tests.
+  Cover edge cases and database failures using mocks or stubs where necessary.
+
+requirements:
+  - Use only C++17 standard
+  - All test cases should go under `TEST(...)` or `TEST_F(...)`
+  - Each test file should include necessary headers like json/json.h 
+  - Output test code as a single .cpp file
+  - Don't write explanations or comments outside the code
